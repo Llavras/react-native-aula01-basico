@@ -12,7 +12,7 @@ function Item({ navigation }) {
         <View style={estiloItem.container}>
             <View style={estiloItem.borda}>
 
-                <Text style={estiloItem.texto}>Item</Text>
+                <Text style={estiloItem.texto}>Curiosidades</Text>
 
         <TouchableOpacity style={estiloItem.botaoContainer} onPress={voltar}>
                     <Text style={estiloItem.botaoTexto}>Voltar</Text>

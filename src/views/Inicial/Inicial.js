@@ -16,14 +16,14 @@ function Inicial({ navigation }) {
         <View style={estiloInicial.container}>
             <View style={estiloInicial.borda}>
 
-                <Text style={estiloInicial.texto}>Inicial</Text>
+                <Text style={estiloInicial.texto}>Inicio</Text>
 
 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirColecao}>
-                    <Text style={estiloInicial.botaoTexto}>Coleção</Text> 
+                    <Text style={estiloInicial.botaoTexto}>Resumo da Obra</Text> 
                 </TouchableOpacity>
 
 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirItem}>
-                    <Text style={estiloInicial.botaoTexto}>Item</Text>
+                    <Text style={estiloInicial.botaoTexto}>Curiosidades</Text>
                 </TouchableOpacity>
 
             </View>
